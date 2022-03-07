@@ -60,7 +60,7 @@ button:hover{
 }
 @media (max-width: 500px){
     .header {
-        font-size: 0.61rem;
+        font-size: 0.55rem;
     }
     .survey-form {
         padding: 0.6rem;
