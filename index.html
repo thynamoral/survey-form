@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Online Studying Form</title>
+</head>
+<body>
+    
+<div class="container">
+    <div class="header">
+        <h1>Online Studying in 2022 Form</h1>
+        <p>Thank you for taking the time to complete this survey</p>
+    </div>
+    <form action="#" class="survey-form">
+        <div class="form-group">
+            <label for="first-name">First Name</label> <br>
+            <input class="form-box" id="first-name" type="text" name="first-name" required placeholder="Enter your first name">
+        </div>
+        <div class="form-group">
+            <label for="last-name">Last Name</label> <br>
+            <input class="form-box" id="last-name" type="text" name="last-name" required placeholder="Enter your last name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label> <br>
+            <input class="form-box" id="email" type="email" name="email" required placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+            <label for="age">Age</label> <br>
+            <input class="form-box" id="age" type="number" min="15" max="100" name="age" required placeholder="Age">
+        </div>
+        <div class="form-group">
+            <label for="occupation">What is your current occupation?</label> <br>
+            <select class="form-box" name="occupation" id="occupation">
+                <option value="#">Select Here</option>
+                <option value="high-school-student">High School Student</option>
+                <option value="university-student">University Student</option>
+                <option value="other-career">None of above</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Which application do you use for online studying?</label> <br>
+            <input id="zoom" type="checkbox" name="Zoom">
+            <label for="zoom">Zoom Meeting</label> <br>
+            <input id="google-classroom" type="checkbox" name="Google-classroom">
+            <label for="google-classroom">Google Classroom</label> <br>
+            <input id="google-meeting" type="checkbox" name="Google-Meeting">
+            <label for="google-meeting">Google Meeting</label> <br>
+            <input id="microsoft-team" type="checkbox" name="microsoft-team">
+            <label for="microsoft-team">Microsoft Team</label> <br>
+            <input id="facebook-group" type="checkbox" name="Facebook-group">
+            <label for="facebook-group">Facebook Group</label> <br>
+            <input id="youtube" type="checkbox" name="Youtube">
+            <label for="youtube">Youtube</label> <br>
+        </div>
+        <div class="form-group">
+            <label>Do you like to study online in this Covid-19 situation?</label> <br>
+            <input id="choice-1" type="radio" name="like-online-study" value="like-very-much">
+            <label for="choice-1">Of Course, I do&excl;</label> <br>
+            <input id="choice-2" type="radio" name="like-online-study" value="hate-online-studying">
+            <label for="choice-2">No, I don't. I hate online studying.</label> <br>
+            <input id="choice-3" type="radio" name="like-online-study" value="not-sure">
+            <label for="choice-3">I'm not sure.</label> <br>
+        </div>
+        <div class="form-group">
+            <label for="question">Do you have any question?</label> <br>
+            <textarea class="form-box" name="question" id="question" cols="30" rows="6" placeholder="Enter your question here..."></textarea>
+        </div>
+        <div class="form-group">
+            <button class="form-box" type="submit">Submit</button>
+        </div>
+    </form>
+    <div class="footer">
+        <p id="credit">&copy; <a href="https://www.facebook.com/moralblaze" target="_blank">Namoral Thy</a></p>
+    </div>
+
+</div>
+
+</body>
+</html>
